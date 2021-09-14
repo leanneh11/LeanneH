@@ -1,0 +1,436 @@
+
+/* styles.css */
+
+
+.container-fluid {
+	padding: 0;
+
+}
+
+
+body {
+	
+	position: relative;
+}
+
+
+
+/* Navigation */
+.navbar-nav {
+	 /* background-color: green; */
+	text-transform: uppercase;
+	color: white;
+	margin-right: 3%;
+	font-size: 20px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+clear: left;
+
+}
+
+.navbar-right {
+padding-left: 2%;
+
+}
+
+.projectName {
+	text-transform: uppercase;
+
+}
+
+.projectName a {
+	color: white;
+	margin-left: 7%;
+	font-size: 20px;
+	list-style-type: none;
+	
+	padding-left: 1%; 
+	margin-bottom: 0;
+}
+
+
+
+/* Carousel */
+
+.carousel-image{height:100%; width:100%;}
+.carousel img{
+width: 100%;
+}
+ 
+	
+
+
+
+
+
+
+/* Section title formatting */
+.section-title {
+	margin-bottom: 2%;
+	text-align: center;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+
+
+/* FAQ or Learn More section */
+.learn-more {
+  text-align: center;
+  float: left;
+  margin-left: 37%;
+}
+
+.FAQ_questions {
+	 margin-left: 20%;
+	 margin-right: 20%;
+	 text-align: center;
+}
+
+#faq{
+    background-image: url("../img/ComputerImage.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: black;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /* padding:100px; */
+    padding-top: 50px;
+    height: 700px;
+}
+
+/* Resume in learn more section */
+.modal-button {
+	margin-right: -28%;
+  float: right;
+  padding: 15px;
+}
+
+
+.modal-dialog {
+	color: white;
+	padding-top: 150px;
+
+}
+
+#modalembed {
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+
+/* About section  */
+.about {
+	padding: 5%;
+	background: rgba(192,192,192,0.1);
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.about .col-md-3 {
+	margin: 4%
+}
+
+.skills {
+	background-color: #699dad;
+	color: #FFF;
+	padding: 3%;
+	min-width: 180px;
+}
+
+.main-text {
+	clear: both;
+	padding-top: 5%;
+	padding-left: 5%;
+	position: static;
+	width: 80%;
+	margin-left: 10%;
+	 
+}
+
+
+#skill-list {
+	margin-left: 1%;
+}
+
+
+.intro p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 280%;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 160%;
+	
+
+}
+
+/* main image: white transparent box; */
+.main_landing {
+	 
+    padding: 0%; 
+     
+    border-radius: 0;
+	background: rgba(192,192,192,0.4);
+ 	margin-top:  10%;
+	color: pink;
+	margin-left: 10%;
+	margin-right: 55%;
+	text-align: center;
+	min-width: 325px;
+	 
+    
+}
+
+#main_image{
+    background-image: url("../img/Artist7.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /* padding:100px; */
+    padding-top: 20px;
+    height: 1200px;
+}
+
+
+
+/* contact form */
+
+.form-control {
+	width: 90%;
+
+	} 
+
+
+
+
+.landing {
+	 
+    padding: 1%; 
+    border-radius: 0;
+	background: rgba(192,192,192,0.1);
+ 	margin-top:  1%;
+	color: #434343;
+	/* margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	min-width: 250px; */
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	min-width: 325px;
+    
+}
+
+
+.landing h3 {
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 10%;
+	
+}
+
+.landing_register {
+	 
+     
+     margin-left: 10%;
+     margin-right: 10%;
+     background-size: 40%;
+
+	background: rgba(192,192,192,0.1);
+ 	/* margin-top:  1%;
+	color: #434343;
+	 
+	 
+	 margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	min-width: 250px; 
+	
+	
+	text-align: center;
+	min-width: 325px;
+	*/
+    
+}
+
+#submitbutton {
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 10%;
+}
+
+#contact{
+    background-image: url("../img/Artistphone.jpg");
+/*Add a background image*/
+    background-attachment: fixed;
+/*Give the background a fixed position does it not scroll when you scroll*/
+    background-size: cover;
+/*Have the background cover the entire div section*/
+    color: white;
+/*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+    /* padding:100px; */
+    padding-top: 20px;
+    height: 700px;
+}
+
+.form-group {
+	text-align: center;
+}
+
+/* Google map in contact section */
+#map {
+  height: 100px;
+  width: 175px;
+
+
+}
+
+
+
+/* Work section */
+.portfolio-image {
+
+	margin-top: 10%;
+	margin-bottom: 10%; 
+	height: 200px;
+	width: 300px;
+
+}
+
+.photo {
+	 
+	align-content: right;
+}
+
+
+/* in Work section these refer to work.js
+.work-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute; /* let's us move the text around and not worry about the image */
+  top: 15%; /* position the text 15% away from the top */
+  left: 22%;
+  color: #fff; 
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+  display: none;
+}
+
+.proj-title {
+	font-weight:900;
+	color: #b62309
+	text-align: left;
+}
+
+
+
+
+.anchor {
+	padding-top: 50px;
+}
+
+
+/* video section */
+.video {
+	text-align: center;
+	padding: 5%;
+}
+
+
+/* Typography */
+h1,
+h2 { font-family: Alex Brush; }
+h3,
+h4 {
+    font-family: Futura, Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, 
+li {
+    font-family: Georgia, Cambria, Didot, serif;
+    font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+/* Rows and columns */
+
+.header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+
+.column {
+
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 5%;
+	height: 30%;
+}
+
+
+
+.row {
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+
+
+
+/* Footer */
+
+.footer p {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+/* Social Media */
+
+.twitterbutton {
+	text-align: center;
+	
+}
+
+.facebookbutton {
+	text-align: center;
+	
+}
+
+
+.copyright {
+	text-align: center;
+	
+}
+
+
+
+
+
