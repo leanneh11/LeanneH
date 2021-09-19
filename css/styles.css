@@ -275,8 +275,7 @@ width: 100%;
 }
 
 #contact{
-    background-image: url("../img/Phone.jpg"); 
-	
+    background-image: ("../img/TranquilBackView2.jpg"); 
 	
 /*Add a background image*/
     background-attachment: fixed;
@@ -289,6 +288,10 @@ width: 100%;
     padding-top: 20px;
     height: 700px;
 }
+
+
+
+
 
 .form-group {
 	text-align: center;
