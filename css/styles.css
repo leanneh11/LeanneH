@@ -275,8 +275,8 @@ width: 100%;
 }
 
 #contact{
-    background-image: ("../img/Phone.jpg"); 
-	
+    background-image: url("../img/Phone.jpg"); 
+		
 /*Add a background image*/
     background-attachment: fixed;
 /*Give the background a fixed position does it not scroll when you scroll*/
@@ -288,6 +288,7 @@ width: 100%;
     padding-top: 20px;
     height: 700px;
 }
+
 
 
 
